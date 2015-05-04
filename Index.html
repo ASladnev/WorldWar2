@@ -7,16 +7,75 @@
     <link href="CSS/ww2.css" rel="stylesheet" media="screen">
 
 </head>
-<body>
-    <div class="jumbotron"> Jumbotron</div>
+<body ng-controller="MainCtrl">
 
+    <div class="container">
+
+        <div class="jumbotron"> Jumbotron</div>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Index.html#/">Главная</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Битвы <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="Index.html#/MoscowBattle">Битва за Москву</a></li>
+                                <li><a href="Index.html#/StalingradBattle">Сталинград</a></li>
+                                <li><a href="Index.html#/KurskBattle">Курская битва</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Битва за Берлин</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Города герои <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Битва за Москву</a></li>
+                                <li><a href="#">Сталинград</a></li>
+                                <li><a href="#">Курская битва</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Битва за Берлин</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--<ng-view></ng-view>-->
+
+        <div class="view-animate-container">
+            <div ng-view class="view-animate"></div>
+        </div>
+
+
+    </div>
 
     <script src="Lib/jquery-1.10.2.min.js"></script>
     <script src="Lib/bootstrap.min.js"></script>
     <script src="Lib/angular.min.js"></script>
     <script src="Lib/angular-route.min.js"></script>
+    <script src="Lib/angular-animate.min.js"></script>
     <script>
-        console.log("I love Javascript!!!!!!");
+        console.log (angular);
+        console.log ("I love Javascript!!!!!!");
     </script>
 
     <script src="JS/ww2Application.js"></script>

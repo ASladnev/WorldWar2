@@ -27,8 +27,6 @@ angular.module ("ww2Application", ['ngRoute'])
                 });
 
 
-            ;
-
 //            $locationProvider.html5Mode(true);
         }])
 

@@ -6,6 +6,7 @@
     console.log ("DOM is ready");
     $("#p2").hide();
     $("#p3").hide();
+
     var w = 0;
     $("#poemButton").on ('click', function () {
       if (w > 2) w = 0;
@@ -55,7 +56,8 @@
          if (v == 4) document.getElementById("span").innerHTML = im5;
          if (v == 5) document.getElementById("span").innerHTML = im6;
          v++;
-     }/*
+     }
+     /*
       $("#but").on ('click', function () {
       x = parseInt($("#inp").val());
       alert($("#inp").val());

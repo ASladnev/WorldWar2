@@ -5,7 +5,6 @@ angular.module ("ww2Application", ['ngRoute'])
 
     .config(['$routeProvider', '$locationProvider',
         function($routeProvider, $locationProvider) {
-
             $routeProvider
                 .when ('/', {
                     templateUrl: 'Main.html'
@@ -32,9 +31,9 @@ angular.module ("ww2Application", ['ngRoute'])
 
     .controller('MainCtrl', ['$route', '$routeParams', '$location',
         function($route, $routeParams, $location) {
-            this.$route = $route;
-            this.$location = $location;
-            this.$routeParams = $routeParams;
+          //  this.$route = $route;
+          //  this.$location = $location;
+          //  this.$routeParams = $routeParams;
         }])
 
         ;

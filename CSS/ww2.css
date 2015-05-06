@@ -9,7 +9,7 @@ p {
 }
 
 body {
-
+    background-image: url("../img/Background.jpg");
 }
 
 .footer {
@@ -23,14 +23,14 @@ body {
 }
 
 .jumbotron {
+    padding : 0;
+    background: rgba(255, 255, 255, 0);
     background-image: url('../img/picture2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-}
-
-.central-container {
-    width:1000px;
+    background-size:100% 100%;
+    margin-bottom: 10px;
 }
 
 .poem {
@@ -54,27 +54,37 @@ body {
 div.moscowBattle {
     background-image: url('../img/Gazetafone1.jpg');
     background-size: 100%;
+    height: 1500px;
 }
 
 div.battleText {
     position: relative;
-    top: 220px;
+    top: 200px;
 }
 
 div.battleText p {
     color:black;
-    padding-left:50px;
+    margin-left:20px;
+    margin-right:10px;
     text-align: justify;
+    font-size: 120%;
 }
 
-div.battleText h1 {
+div.battleHeader {
+    position: relative;
+    top:190px;
+
+}
+
+div.battleHeader h2 {
     text-align: right;
+    margin-right: 10px;
 }
 
 div.battleImage {
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: 20px;
     float:left;
     position: relative;
-    top:220px;
+    top:200px;
 }

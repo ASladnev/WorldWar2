@@ -10,9 +10,9 @@ angular.module ("ww2Application", ['ngRoute', 'ngAnimate'])
                 .when ('/Battles', {templateUrl: 'Battle/Battles.html'})
                 .when('/MoscowBattle', {templateUrl: 'Battle/Moscow.html'})
                 .when('/StalingradBattle', {templateUrl: 'Battle/Stalingrad.html'})
-                .when('/KurskBattle', {templateUrl: 'Battle/Kursk.html'});
-
-
+                .when('/KurskBattle', {templateUrl: 'Battle/Kursk.html'})
+                .when('/Poems', {templateUrl : 'WarArt/Poems.html'})
+                ;
 //            $locationProvider.html5Mode(true);
         }])
 

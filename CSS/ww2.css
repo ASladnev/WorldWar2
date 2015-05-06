@@ -3,12 +3,15 @@
     width: 970px;
     height: 500px;
 }
+
 p {
     color: red;
 }
+
 body {
 
 }
+
 .footer {
     background-color: peru;
     width: 980px;
@@ -24,7 +27,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
-
 }
 
 .central-container {
@@ -36,8 +38,8 @@ body {
     text-align: center;
     width: 100%;
     height: 500px;
-
 }
+
 .war {
     font-size: 25px;
     color: red;
@@ -47,4 +49,32 @@ body {
     background-color: red;
     width: 100%;
     height: 100px;
+}
+
+div.moscowBattle {
+    background-image: url('../img/Gazetafone1.jpg');
+    background-size: 100%;
+}
+
+div.battleText {
+    position: relative;
+    top: 220px;
+}
+
+div.battleText p {
+    color:black;
+    padding-left:50px;
+    text-align: justify;
+}
+
+div.battleText h1 {
+    text-align: right;
+}
+
+div.battleImage {
+    margin-left: 50px;
+    margin-right: 20px;
+    float:left;
+    position: relative;
+    top:220px;
 }

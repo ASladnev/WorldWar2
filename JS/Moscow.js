@@ -14,13 +14,13 @@ $(function () {
     //document.getElementById("imagexxx").innerHTML = arr[0];
 
     var v = 0;
-
-    Change();
+    Change ();
 
     function Change () {
         if (v > 5) v = 0;
         var imageDiv = document.getElementById ("imageDiv");
         if (imageDiv == null) {
+            console.log ("has cleared interval");
             clearInterval(interval);
             return;
         }
@@ -28,5 +28,16 @@ $(function () {
     }
 
     var interval = setInterval(Change, 5000);
+
+    $('#moscowText').on ('click', function () {
+       console.log ("Moscow battle text has been clicked");
+       $('#moscowModal').modal ('toggle');
+    });
+
+    var carousel = $('.carousel');
+    carousel.carousel({'interval': false});
+    $('.left').on ('click', function () {carousel.carousel ('next')});
+    $('.right').on ('click', function () {carousel.carousel ('prev')});
+
 
 });

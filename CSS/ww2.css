@@ -111,3 +111,15 @@ div.battleImage {
     position: relative;
     top:200px;
 }
+
+.modal-content {
+    height: 600px;
+}
+
+.item {
+    height:500px;
+}
+
+.item img {
+    margin-left : 100px;
+}

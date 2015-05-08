@@ -1,11 +1,14 @@
 .menu {
     background-color: yellow;
-    width: 970px;
-    height: 500px;
+    width: 1150px;
+    height: 900px;
 }
 
-p {
+.p {
     color: red;
+}
+.mainP {
+    font-size: 16px;
 }
 
 body {
@@ -108,4 +111,9 @@ div.battleImage {
     float:left;
     position: relative;
     top:200px;
+}
+#max {
+    position: absolute;
+    top : 1200px;
+    left : 400px;
 }

@@ -20,14 +20,14 @@ $(function () {
         "<img src='Moscow/Moscow4.jpg' height='150px' width='180px'>",
         "<img src='Moscow/Moscow5.jpg' height='150px' width='180px'>",
         "<img src='Moscow/Moscow6.jpg' height='150px' width='180px'>"];
-    document.getElementById("imagexxx").innerHTML = arr[0];
+    document.getElementById("imagex").innerHTML = arr[0];
     var v = 1;
     $('body').on ('load', function () {
        Change();
     });
     function Change () {
         if (v > 5) v = 0;
-        document.getElementById("imagexxx").innerHTML = arr[v];
+        document.getElementById("imagex").innerHTML = arr[v];
         //if (v == 0) document.getElementById("image").innerHTML = arr[0];
         //if (v == 1) document.getElementById("image").innerHTML = arr[1];
         //if (v == 2) document.getElementById("image").innerHTML = arr[2];
@@ -41,7 +41,7 @@ $(function () {
         alert("aa");
     }
 
-    $("#imagexxx").on ('click', function () {
+    $("#imagex").on ('click', function () {
         Num();
     });
 

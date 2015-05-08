@@ -2,34 +2,18 @@
 
  $(function () {
 
-    var x;
-    console.log ("DOM is ready");
-    $("#p2").hide();
-    $("#p3").hide();
+   console.log ("poem.js is loaded");
 
-    var w = 0;
-    $("#poemButton").on ('click', function () {
-      if (w > 2) w = 0;
-      if (w == 0) {
-          $("#p1").hide();
-          $("#p3").hide();
-         // $("#p2").show ();
-          $("#p2").slideDown(3000);
-      }
-      if (w == 1) {
-          $("#p2").hide();
-          $("#p1").hide();
-         // $("#p3").show ();
-          $("#p3").slideDown(3000);
-      }
-      if (w == 2) {
-          $("#p2").hide();
-          $("#p3").hide();
-         // $("#p1").show ();
-          $("#p1").slideDown(3000);
-      }
-      w++;
-     });
+   $('.war').hide ();
+
+   $("#p1").show ();
+
+   var w = 1;
+   $("#poemButton").on ('click', function () {
+     if (w > 2) w = 1;
+     $('.war').hide ();
+     $("#p" + w++).slideDown (3000);
+   });
 
  });
 

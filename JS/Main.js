@@ -8,23 +8,29 @@ $(function () {
     var im4 = "<img src='img/im4.jpg' width='100px' height='100px'/>";
     var im5 = "<img src='img/im5.jpg' width='100px' height='100px'/>";
     var im6 = "<img src='img/im6.jpg' width='100px' height='100px'/>";
-    document.getElementById("span").innerHTML = im1;
+    var mass = [im1,im2,im3,im4,im5,im6];
+
     var v = 1;
 
-    $('body').on ('load', function () {
-        loadImage ();
-    });
-
-    function loadImage () {
-        if (document.getElementById("span") == null) return;
-        if (v > 6) v = 0;
-        if (v == 0) document.getElementById("span").innerHTML = im1;
-        if (v == 1) document.getElementById("span").innerHTML = im2;
-        if (v == 2) document.getElementById("span").innerHTML = im3;
-        if (v == 3) document.getElementById("span").innerHTML = im4;
-        if (v == 4) document.getElementById("span").innerHTML = im5;
-        if (v == 5) document.getElementById("span").innerHTML = im6;
-        v++;
+    function LoadImage () {
+        if (v > 5) v = 0;
+        var imageX = document.getElementById("span");
+        if (imageX == null) {
+            clearInterval(interval);
+            return;
+        }
+        imageX.innerHTML = mass[v++];
     }
-    setInterval(loadImage, 5000);
+    LoadImage();
+
+   var interval =  setInterval(LoadImage, 5000);
 });
+
+$("#span").on ('click', function () {
+    $('#moscowModal').modal ('toggle');
+});
+
+var carousel = $('.carousel');
+carousel.carousel({'interval': false});
+$('.left').on ('click', function () {carousel.carousel ('prev')});
+$('.right').on ('click', function () {carousel.carousel ('next')});

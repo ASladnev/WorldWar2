@@ -14,7 +14,7 @@ $(function () {
     //document.getElementById("imagexxx").innerHTML = arr[0];
 
     var v = 0;
-    Change ();
+
 
     function Change () {
         if (v > 5) v = 0;
@@ -26,7 +26,7 @@ $(function () {
         }
         imageDiv.innerHTML = arr[v++];
     }
-
+    Change ();
     var interval = setInterval(Change, 5000);
 
     $('#moscowText').on ('click', function () {

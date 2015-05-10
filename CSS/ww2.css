@@ -101,6 +101,13 @@ div.battleTextMain {
     top : 60px;
     font-size: 20px;
 }
+div.battleTextMain p {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+
+}
 div.battleHeader {
     position: relative;
     top:190px;
@@ -119,7 +126,11 @@ div.battleImage {
     position: relative;
     top:200px;
 }
-
+div.HeroText {
+    position : relative;
+    top : 100px;
+    font-size: 16px;
+}
 .modal-content {
     height: 600px;
 }

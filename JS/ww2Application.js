@@ -12,6 +12,7 @@ angular.module ("ww2Application", ['ngRoute', 'ngAnimate'])
                 .when('/StalingradBattle', {templateUrl: 'Battle/Stalingrad.html'})
                 .when('/KurskBattle', {templateUrl: 'Battle/Kursk.html'})
                 .when('/Poems', {templateUrl : 'WarArt/Poems.html'})
+                .when ('/MoscowHero', {templateUrl : "HeroSities/MoscowHero.html"})
                 //.when('/carousel-example-generic', {templateUrl:'#'});
                 ;
             //$locationProvider.html5Mode(true);

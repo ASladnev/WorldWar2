@@ -10,7 +10,7 @@ $(function () {
     var im6 = "<img src='img/im6.jpg' width='100px' height='100px'/>";
     var mass = [im1,im2,im3,im4,im5,im6];
 
-    var v = 1;
+    var v = 0;
 
     function LoadImage () {
         if (v > 5) v = 0;

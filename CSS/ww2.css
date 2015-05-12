@@ -136,7 +136,11 @@ div.battleImage {
 div.BattleHero {
     background-size: 100%;
     height: 1000px;
-    background-color: silver;
+    /*background-color: silver;*/
+    background: url('../img/Hero.png') no-repeat;
+
+    background-size: 100%;
+
 }
 
 

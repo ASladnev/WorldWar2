@@ -1,6 +1,98 @@
+<script>
+    jQuery.getScript("JS/Leningrad.js");
+</script>
 <div class="BattleHero">
+
+    <div class="battleImageHero">
+        <img src="img/Star.png">
+    </div>
     <div class="battleHeaderHero"> <h2>Лененград - город герой</h2> </div>
     <div class = "HeroText">
-        <p></p>
+        <p>Ленинград – колыбель пролетарской революции 1917 года, был особым городом для СССР, поэтому в планах гитлеровского командования было полное его уничтожение и истребление населения.
+        </p>
+        <p>Ожесточенные бои на подступах к Ленинграду начались 10 июля 1041 г. Численное превосходство изначально было на стороне противника: почти в 2,5 раза больше солдат, в 10 раз – самолетов, в 1,2 раза – танков и почти в 6 раз – минометов. В итоге 8 сентября 1941 г. года гитлеровцам удалось захватить Шлиссельбург и таким образом, взять под свой контроль исток Невы. В результате Ленинград был блокирован с суши (отрезан от Большой земли).</p>
+        <p>С этого момента началась печально известная 900-дневная блокада города, продолжавшаяся до января 1944 г. Несмотря на начавшийся ужасный голод и непрерывные атаки врага, в результате которых погибли почти 650 000 жителей Ленинграда, они показали себя настоящими героями, все свои силы направлявшими на борьбу с фашистскими захватчиками.</p>
+        <p>Примечательными фактами в истории военной летописи города на Неве стали следующие цифры: более 500 тысяч ленинградцев выходили на работы по строительству оборонительных сооружений; ими были построены 35 км баррикад и противотанковых препятствий, а также более 4 000 дзотов и дотов; оборудовано 22 000 огневых точек. Ценой собственного здоровья и жизней мужественные ленинградцы-герои дали фронту тысячи полевых и морских орудий, отремонтировали и выпустили с конвейера 2 000 танков, изготовили 10 млн. снарядов и мин, 225 000 автоматов и 12 000 минометов.</p>
+
     </div>
+    <div  class= "HeroImage" id="Leningrad"><span id="ImageHero"></span></div>
+
 </div>
+<div class="buttonImage"><img src="../img/Strelka.jpg"/></div>
+
+<div class="modal fade" id="moscowModal" role="dialog">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Ленинград - город герой</h4>
+            </div>
+            <div class="modal-body">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="LeningradHero/Leningrad1.jpg"  alt="...">
+                            <div class="carousel-caption">7
+                                70 лет
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad2.jpg" width="600" height="450" alt="...">
+                            <!--<div class="carousel-caption">
+                                Р—Р°РіРѕР»РѕРІРѕРє 2
+                            </div>-->
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad3.jpg" width="600" height="400" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad4.jpg" width="600" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad5.jpg" width="601" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad6.jpg" width="500" height="374" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control"  role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+            <!--div class="modal-footer">
+              <button type="button1" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,6 +1,92 @@
+<script>
+    jQuery.getScript("JS/Kerch.js");
+</script>
 <div class="BattleHero">
+
+    <div class="battleImageHero">
+        <img src="img/Star.png">
+    </div>
     <div class="battleHeaderHero"> <h2>Керчь - герод герой</h2> </div>
     <div class = "HeroText">
-        <p></p>
+        <p>Керчь была одним из первых городов, попавших под удар немецко-фашистских войск в начале войны. За все время через нее четырежды проходила линия фронта и за годы войны город был дважды оккупирован немецко-фашистскими войсками, в результате чего было убито 15 тысяч мирных жителей, а более 14 тысяч керчан угнано в Германию на принудительные работы. Первый раз город был захвачен в ноябре 1941 г, после кровопролитных сражений. Но уже 30 декабря, в ходе Керченско-Феодосийской десантной операции, Керчь освободили войска 51-й армии</p>
+        <p>В мае 1942 г. фашисты сосредоточили крупные силы на Керченском полуострове и начали новое наступление на город. В результате тяжелых и упорных боев, Керчь снова была оставлена. Легендарной страницей, вписанной в историю Великой Отечественной войны, стала упорная борьба и длительная оборона в Аджимушкайских каменоломнях. Советские патриоты – герои показали всему миру образец взаимной выручки, верности воинскому долгу и боевого братства. Также активную борьбу с оккупантами вели подпольщики и партизаны.</p>
     </div>
+    <div  class= "HeroImage" id="Kertch"><span id="ImageHero"></span></div>
 </div>
+<div class="buttonImage"><img src="../img/Strelka.jpg"/></div>
+<div class="modal fade" id="moscowModal" role="dialog">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Керчь - город герой</h4>
+            </div>
+            <div class="modal-body">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Kertch/kerch1.jpg"  alt="...">
+                            <div class="carousel-caption">7
+                                70 лет
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Kertch/kerch2.jpg" width="600" height="450" alt="...">
+                            <!--<div class="carousel-caption">
+                                Р—Р°РіРѕР»РѕРІРѕРє 2
+                            </div>-->
+                        </div>
+                        <div class="item">
+                            <img src="Kertch/kerch3.jpg" width="600" height="400" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Kertch/kerch4.jpg" width="600" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Kertch/kerch5.jpg" width="601" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Kertch/kerch6.jpg" width="500" height="374" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control"  role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+            <!--div class="modal-footer">
+              <button type="button1" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

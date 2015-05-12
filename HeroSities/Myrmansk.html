@@ -1,6 +1,92 @@
+<script>
+    jQuery.getScript("JS/Myrmansk.js");
+</script>
 <div class="BattleHero">
+
+    <div class="battleImageHero">
+        <img src="img/Star.png">
+    </div>
     <div class="battleHeaderHero"> <h2>Мурманск - герод герой</h2> </div>
     <div class = "HeroText">
-        <p></p>
+        <p>Военная история Мурманска обусловлена наступлением в 1941 году немецко-фашистской армии сразу по нескольким фронтам. Так для захвата земель Заполярья, со стороны Норвегии и Финляндии, был развернут фронт «Норвегия». В планах фашистских захватчиков было нападение на Кольский полуостров. Оборона полуострова была развернута на Северном фронте, полосе протяженностью в 500 км. Именно эти части прикрывали Мурманское, Канделакское и Ухтинское направления. В обороне участвовали корабли Северного флота и сухопутные войска Советской армии, защищая Заполярье от вторжения немецких войск.</p>
+        <p>Вражеское наступление началось 29 июня 1941 года, но наши солдаты остановили врага в 20-30 километрах от граничной линии. Ценой ожесточенных боев и безграничного мужества этих героев, линия фронта оставалась неименной до 1944 года, когда наши войска начали наступление. Мурманск – один из тех городов, которые стали прифронтовыми с первых же дней войны. Вслед за Сталинградом, Мурманск становится лидером в печальной статистике: количество взрывчатых веществ на квадратный метр территории города превысило все мыслимые пределы: 792 авиационных налета и 185 тысяч сброшенных бомб – однако Мурманск выстоял и продолжал работать как портовый город. Под регулярными авианалетами простыми жителями-героями проводились разгрузка и погрузка кораблей, строительство бомбоубежищ, производство военной техники. За все военные годы Мурманский порт принял 250 судов, обработал 2 миллиона тонн различных грузов.</p>
     </div>
+    <div  class= "HeroImage" id="Myrmansk"><span id="ImageHero"></span></div>
 </div>
+<div class="buttonImage"><img src="../img/Strelka.jpg"/></div>
+<div class="modal fade" id="moscowModal" role="dialog">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Мурманск - город герой</h4>
+            </div>
+            <div class="modal-body">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Myrmansk/murmansk1.jpg"  alt="...">
+                            <div class="carousel-caption">
+                                70 лет
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Myrmansk/murmansk2.jpg" width="600" height="450" alt="...">
+                            <!--<div class="carousel-caption">
+                                Р—Р°РіРѕР»РѕРІРѕРє 2
+                            </div>-->
+                        </div>
+                        <div class="item">
+                            <img src="Myrmansk/murmansk3.jpg" width="600" height="400" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Myrmansk/murmansk4.jpg" width="600" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>11
+                        <div class="item">
+                            <img src="Myrmansk/murmansk5.jpg" width="601" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="LeningradHero/Leningrad6.jpg" width="500" height="374" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control"  role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+            <!--div class="modal-footer">
+              <button type="button1" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,6 +1,92 @@
+<script>
+    jQuery.getScript("JS/Sevastopol.js");
+</script>
 <div class="BattleHero">
+
+    <div class="battleImageHero">
+        <img src="img/Star.png">
+    </div>
     <div class="battleHeaderHero"> <h2>Севастополь - герод герой</h2> </div>
     <div class = "HeroText">
-        <p></p>
+        <p>К началу Великой Отечественной войны город Севастополь был крупнейшим портом на Черном море и главной военно-морской базой страны. Его героическая защита от немецко-фашисткой агрессии началась 30 октября 1941г. и продолжалась 250 дней, войдя в историю, как образец активной, длительной обороны приморского города в глубоком тылу врага. Захватить Севастополь сходу немцам не удалось, так как его гарнизон насчитывал 23 тысячи человек и имел 150 береговых и полевых орудий. Но затем, до лета 1942 г, они предприняли еще три попытки захвата города.</p>
+        <p>Первый раз Севастополь подвергся атаке 11 ноября 1941 г. Немецко-фашистская армия 10 дней подряд пытались прорваться к городу – герою силою четырех пехотных дивизий, но безуспешно. Им противостояли советские силы флота и сухопутных войск, объединенные в Севастопольский оборонительный район. В этом сражении враг потерял 150 единиц танковой техники, 131 самолет и около 15 тысяч солдат и офицеров. Вторую попытку овладеть городом гитлеровцы предприняли в период с 7 по 31 декабря 1941 г. На этот раз в их распоряжении было семь пехотных дивизий, две горно-стрелковые бригады, свыше 150 танков, 300 самолетов и 1275 орудий и минометов. Но и эта попытка агрессии провалилась, защитники-герои Севастополя уничтожили до 40 000 фашистов и не подпустили их к городу.</p>
     </div>
+    <div  class= "HeroImage" id="Sevastopol"><span id="ImageHero"></span></div>
 </div>
+<div class="buttonImage"><img src="../img/Strelka.jpg"/></div>
+<div class="modal fade" id="moscowModal" role="dialog">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Севастополь - город герой</h4>
+            </div>
+            <div class="modal-body">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="Sevastopol/sevastopol1.jpg"  alt="...">
+                            <div class="carousel-caption">7
+                                70 лет
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Sevastopol/sevastopol2.jpg" width="600" height="450" alt="...">
+                            <!--<div class="carousel-caption">
+                                Р—Р°РіРѕР»РѕРІРѕРє 2
+                            </div>-->
+                        </div>
+                        <div class="item">
+                            <img src="Sevastopol/sevastopol3.jpg" width="600" height="400" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Sevastopol/sevastopol4.jpg" width="600" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Sevastopol/sevastopol5.jpg" width="601" height="450" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="Sevastopol/sevastopol6.jpg" width="500" height="374" alt="...">
+                            <div class="carousel-caption">
+                                70 лет победы
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control"  role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+            <!--div class="modal-footer">
+              <button type="button1" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div-->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

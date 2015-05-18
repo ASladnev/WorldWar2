@@ -26,9 +26,18 @@ body {
 }
 
 .footer {
-    background-color: peru;
-    width: 980px;
+    position: relative;
+    width: 200px;
     height: 40px;
+    top : 220px;
+    left : 500px;
+}
+.footer1 {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    top : 700px;
+    left : 450px;
 }
 .navbar-brand {
     font-size:200%;
@@ -200,6 +209,6 @@ div.HeroImage {
 }
 div.buttonImage {
     position: relative;
-    top : 160px;
+    top : 100px;
     left : 400px;
 }

@@ -26,6 +26,7 @@ angular.module ("ww2Application", ['ngRoute', 'ngAnimate'])
                 .when ('/SevastopolHero', {templateUrl : "HeroSities/Sevastopol.html"})
                 .when ('/TylaHero', {templateUrl : "HeroSities/Tyla.html"})
                 .when ('/SmolenskHero', {templateUrl : "HeroSities/Smolensk.html"})
+                .when ('/Project', {templateUrl : 'Project.html'})
                 //.when('/carousel-example-generic', {templateUrl:'#'});
                 ;
             //$locationProvider.html5Mode(true);

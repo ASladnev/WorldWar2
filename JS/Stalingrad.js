@@ -4,7 +4,8 @@
 
 $(function () {
     var con = 200;
-    var images = ["<img src='Stalingrad/Stalingrad1.jpg' height='150px' width='180px'>",
+    var images = [
+        "<img src='Stalingrad/Stalingrad1.jpg' height='150px' width='180px'>",
         "<img src='Stalingrad/Stalingrad2.jpg' height='150px' width='200px'>",
         "<img src='Stalingrad/Stalingrad3.jpg' height='150px' width='200px'>",
         "<img src='Stalingrad/Stalingrad4.jpg' height='150px' width='200px'>",

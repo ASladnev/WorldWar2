@@ -9,7 +9,7 @@ var images = [
     "<img src='Volgograd/Volgograd6.jpg' width='300px' height='280px'/>"];
 var v = 0;
 function ChangeImage () {
-    if (v > 6) v = 0;
+    if (v > 5) v = 0;
     var ImageBlock = document.getElementById("ImageHero");
     if (ImageBlock == null) {
         clearInterval(interval);

@@ -4,7 +4,8 @@
 $(function () {
     console.log ("moscow.js is loaded");
 
-    var arr = ["<img src='Moscow/Moscow1.jpg' height='150px' width='200px'>",
+    var arr = [
+        "<img src='Moscow/Moscow1.jpg' height='150px' width='200px'>",
         "<img src='Moscow/Moscow2.jpg' height='150px' width='200px'>",
         "<img src='Moscow/Moscow3.jpg' height='150px' width='200px'>",
         "<img src='Moscow/Moscow4.jpg' height='150px' width='200px'>",

@@ -102,6 +102,19 @@ div.battleText {
     top: 200px;
     font-size: 16px;
 }
+div.battleTextBerlin {
+    position: relative;
+    top: 70px;
+    font-size: 16px;
+}
+div.battleTextBerlin p {
+
+    color:black;
+    margin-left:20px;
+    margin-right:10px;
+    text-align: justify;
+    font-size: 120%;
+}
 
 div.battleText p {
     color:black;
@@ -140,6 +153,14 @@ div.battleImage {
     float:left;
     position: relative;
     top:200px;
+}
+div.battleImageBerlin {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    left : 350px;
+    top:150px;
 }
 
 div.BattleHero {
@@ -211,4 +232,8 @@ div.buttonImage {
     position: relative;
     top : 100px;
     left : 400px;
+}
+.code {
+    position: relative;
+    left : 200px;
 }
